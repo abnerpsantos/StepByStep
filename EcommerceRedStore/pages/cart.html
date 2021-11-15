@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- ! Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abner Santos and Easy Tutorials/youtube.">
+    <meta name="description" content="Loja com HTML e CSS">
+    <meta name="keywords" content="e-commerce,website,html">
+
+    <!-- ! Links -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="../../images/x-icon">
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+
+    <title>Minha Lojinha - Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="products.html">Produtos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="../images/cart.png" alt="Carrinho" width="30px" height="30px"></a>
+            <img class="menu-icon" src="../images/menu.png" alt="" onclick="menutoggle()">
+        </div>
+
+        <!-- cart item details -->
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="../images/buy-1.jpg" alt="">
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>Price: R$500.00</small>
+                                <br>
+                                <a href="#">remove</a>
+                            </div>
+                    <td><input type="number" value="1"></td>
+                    <td>R$500.00</td>
+        </div>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="../images/buy-2.jpg" alt="">
+                    <div>
+                        <p>Red Printed Shoe</p>
+                        <small>Price: R$500.00</small>
+                        <br>
+                        <a href="#">remove</a>
+                    </div>
+            <td><input type="number" value="1"></td>
+            <td>R$500.00</td>
+    </div>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="../images/buy-3.jpg" alt="">
+                <div>
+                    <p>Red Printed Jeans</p>
+                    <small>Price: R$500.00</small>
+                    <br>
+                    <a href="#">remove</a>
+                </div>
+        <td><input type="number" value="1"></td>
+        <td>R$500.00</td>
+        </div>
+        </td>
+    </tr>
+    </table>
+    <div class="total-price" id="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>R$1500.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>R$100.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>R$1600.00</td>
+            </tr>
+        </table>
+    </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe Nosso Aplicativo :)</h3>
+                    <p>Baixe o aplicativo para Android e IOS</p>
+                    <div class="app-logo">
+                        <img src="../../images/play-store.png" alt="">
+                        <img src="../../images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../../images/logo-white.png" alt="">
+                    <p>Nossa loja é a melhor do Mundo!!!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis:</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Politica de Privacidade</li>
+                        <li>Afilie-se</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy;Copyright 2020 - Easy Tutorials on Youtube</p>
+        </div>
+    </div>
+
+
+    <script src="/javascript/main.js"></script>
+</body>
+
+</html>

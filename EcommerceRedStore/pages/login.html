@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- ! Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abner Santos and Easy Tutorials/youtube.">
+    <meta name="description" content="Loja com HTML e CSS">
+    <meta name="keywords" content="e-commerce,website,html">
+
+    <!-- ! Links -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="../../images/x-icon">
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    
+
+    <title>Minha Lojinha - Home</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="products.html">Produtos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="../images/cart.png" alt="Carrinho" width="30px" height="30px"></a>
+            <img class="menu-icon" src="../images/menu.png" alt="" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- Login Page -->
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../images/image1.png" alt="" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="#">Forgot Password</a>
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe Nosso Aplicativo :)</h3>
+                    <p>Baixe o aplicativo para Android e IOS</p>
+                    <div class="app-logo">
+                        <img src="../../images/play-store.png" alt="">
+                        <img src="../../images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../../images/logo-white.png" alt="">
+                    <p>Nossa loja é a melhor do Mundo!!!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis:</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Politica de Privacidade</li>
+                        <li>Afilie-se</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy;Copyright 2020 - Easy Tutorials on Youtube</p>
+        </div>
+    </div>
+    
+<script src="../javascript/main.js"></script>
+</body>
+
+
+</html>
